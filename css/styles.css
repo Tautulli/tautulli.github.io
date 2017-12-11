@@ -16,6 +16,28 @@
   padding: 10px 40px;
 }
 
+.btn-link:hover {
+  text-decoration: none;
+}
+
+#heading-name {
+  position: relative;
+}
+#heading-plex {
+  position: absolute;
+  bottom: -0.4rem;
+  font-size: 1rem;
+  right: 0.8rem;
+  text-transform: none;
+}
+
+#heading-plex img {
+  margin-top: -11px;
+  margin-left: -5px;
+  height: 38px;
+  display: inline-block;
+}
+
 /*em {*/
   /*color: #E5A00D*/
 /*}*/
@@ -55,4 +77,31 @@
 
 .footer-content > p {
   font-size: 12px;
+}
+
+.nav-link.text-alabaster {
+  text-transform: uppercase;
+}
+.btn.bg-gamboge {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.btn.bg-gamboge:hover {
+  color: #E5A00D !important;
+  background-color: #FFF !important;
+}
+h2 {
+  text-transform: uppercase;
+}
+.sec-title h2:after {
+  border-bottom: 1px solid #E5A00D;
+  content: "";
+  display: block;
+  bottom: -25px;
+  position: relative;
+  width: 150px;
+  margin: 0 auto;
+}
+.blockquote {
+  font-size: 1rem;
 }
