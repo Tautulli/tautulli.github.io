@@ -1,21 +1,464 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Tautulli</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <title>Tautulli</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-  </head>
-  <body>
-    
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+        integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-  </body>
+  <link rel="stylesheet" href="css/plexcolors.css"/>
+  <link rel="stylesheet" href="css/iconmoon.min.css"/>
+  <link rel="stylesheet" href="css/gallery.css"/>
+  <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body class="bg-shark text-alabaster">
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-black p-3">
+  <div class="container">
+    <a class="navbar-brand" href="#heading"><img src="images/logo-text.png" style="height: 50px;"/></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link text-alabaster" href="#heading">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-alabaster" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-alabaster" href="#features">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-alabaster" href="#preview">Preview</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-alabaster" href="#download">Download</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-alabaster" href="#support">Support</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-alabaster" href="#donate">Donate</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section id="heading" class="d-flex align-items-center justify-content-center">
+  <div class="text-center">
+    <h2 class="display-1">Tautulli</h2>
+    <p class="p-5">Monitor your Plex Media Server</p>
+    <p><a href="#download" class="btn bg-gamboge text-alabaster">Get It Now</a></p>
+  </div>
+</section>
+
+<section id="about" class="bg-river-bed text-alabaster p-5">
+  <div class="container">
+    <h2 class="display-4 mb-5 text-gamboge">What is Tautulli?</h2>
+    <div class="row">
+      <div class="col-md-3 text-center mb-4">
+        <img src="images/favicon.png" alt="member" class="img-fluid">
+      </div>
+      <div class="col-md">
+        <blockquote class="blockquote text-right">
+          <p class="mb-0"><em>Tautulli is the best web application to monitor, view analytics, and receive notifications
+            about your Plex Media Server.</em></p>
+          <footer class="blockquote-footer">One of the Developer's Mom</footer>
+        </blockquote>
+
+        <!--<p class="lead">Tautulli is a python based web application for monitoring, analytics, and notifications for your Plex Media Server.</p>-->
+        <p>
+          Tautulli (pronounced "Tau Too lee") is a 3rd party application that you can run along side your Plex Media
+          Server to monitor activity and track various statistics.
+          Most importantly, these statistics include <span class="text-gamboge">what</span> has been watched, <span
+          class="text-gamboge">who</span> watched it, <span class="text-gamboge">when</span> and <span
+          class="text-gamboge">where</span> they watched it, and <span class="text-gamboge">how</span> it was watched.
+          The only thing missing is "why they watched it", but who am I to question your 42 plays of Frozen.
+          All statistics are presented in a nice and clean interface with many tables and graphs, which makes it easy to
+          brag about your server to everyone else.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="features" class="text-alabaster p-5">
+  <div class="container">
+
+    <div class="sec-title">
+      <h2 class="display-4 mb-5 text-gamboge">Features</h2>
+    </div>
+
+    <div class="row justify-content-md-center">
+
+
+      <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+        <div class="features-item">
+          <div class="m-5">
+            <i class="fa fa-play fa-3x"></i>
+          </div>
+          <h3>Monitoring</h3>
+          <p class="text-gray-chateau">Monitor the current activity on your Plex Media Server.</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+        <div class="features-item">
+          <div class="m-5">
+            <i class="fa fa-list fa-3x"></i>
+          </div>
+          <h3>Statistics</h3>
+          <p class="text-gray-chateau">View statistics about your Plex library.</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+        <div class="features-item">
+          <div class="m-5">
+            <i class="fa fa-history fa-3x"></i>
+          </div>
+          <h3>History</h3>
+          <p class="text-gray-chateau">Log watch history for all your users.</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+        <div class="features-item">
+          <div class="m-5">
+            <i class="fa fa-bar-chart fa-3x"></i>
+          </div>
+
+          <h3>Graphs</h3>
+          <p class="text-gray-chateau">View streaming trends with intuitive graphs.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row justify-content-md-center">
+
+      <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+        <div class="features-item">
+          <div class="m-5">
+            <i class="fa fa-bell fa-3x"></i>
+          </div>
+
+          <h3>Notifications</h3>
+          <p class="text-gray-chateau">Trigger notifications or scripts from activity on your server.</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+        <div class="features-item">
+          <div class="m-5">
+            <i class="fa fa-download fa-3x"></i>
+          </div>
+
+          <h3>Recently Added</h3>
+          <p class="text-gray-chateau">Know when content is added to your Plex library.</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+        <div class="features-item">
+          <div class="m-5">
+            <i class="fa fa-cloud-download fa-3x"></i>
+          </div>
+
+          <h3>Sync</h3>
+          <p class="text-gray-chateau">View all synced content from your server.</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+        <div class="features-item">
+          <div class="m-5">
+            <i class="fa fa-film fa-3x"></i>
+          </div>
+
+          <h3>Media Info</h3>
+          <p class="text-gray-chateau">See detailed media info for all your content.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row justify-content-md-center">
+      <div class="col-md-3 col-sm-6 col-xs-12 col-md-offset-3 text-center">
+        <div class="features-item">
+          <div class="m-5">
+            <i class="fa fa-cogs fa-3x"></i>
+          </div>
+
+          <h3>Customizable</h3>
+          <p class="text-gray-chateau">Many settings to make Tautulli work the way you want.</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+        <div class="features-item">
+          <div class="m-5">
+            <i class="fa fa-desktop fa-3x"></i>
+          </div>
+
+          <h3>Cross Platform</h3>
+          <p class="text-gray-chateau">Works on any system that supports python.</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+        <div class="features-item">
+          <div class="m-5">
+            <i class="fa fa-android fa-3x"></i>
+          </div>
+
+          <h3>Tautulli Remote <sup><small><small>beta</small></small></sup></h3>
+          <p class="text-gray-chateau">Download the Android app to view stats on the go</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+        <div class="features-item">
+          <div class="m-5">
+            <i class="fa fa-ellipsis-h fa-3x"></i>
+          </div>
+
+          <h3>And More!</h3>
+          <p class="text-gray-chateau"></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="preview" class="text-alabaster bg-river-bed p-5">
+  <div class="container">
+
+    <div class="sec-title">
+      <h2 class="display-4 mb-5 text-gamboge">Preview</h2>
+    </div>
+
+    <div class="gallery">
+
+        <figure>
+          <img src="images/screenshots/activity.png" alt="Alt Image Text" />
+          <figcaption>Homepage <small>Monitor current activity and statistics from the homepage</small></figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/screenshots/library.png" alt="Alt Image Text" />
+          <figcaption>Libraries <small>View the number of media items in your libraries.</small></figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/screenshots/library.png" alt="Alt Image Text" />
+          <figcaption>Library Statistics <small>See detailed statistics about each library.</small></figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/screenshots/media item.png" alt="Alt Image Text" />
+          <figcaption>Media Info <small>Browse and view info about the media in your Plex libraries.</small></figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/screenshots/users.png" alt="Alt Image Text" />
+          <figcaption>Users <small>Track the activity of your users.</small></figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/screenshots/user info.png" alt="Alt Image Text" />
+          <figcaption>User Statistics <small>See detailed statistics about each user.</small></figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/screenshots/history.png" alt="Alt Image Text" />
+          <figcaption>History <small>Log detailed watched statistics for all streaming activity.</small></figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/screenshots/graphs.png" alt="Alt Image Text" />
+          <figcaption>Graphs <small>Analyze trends on your server using beautiful graphs.</small></figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/screenshots/notifications.png" alt="Alt Image Text" />
+          <figcaption>Notification <small>Get notified with your favourite notification agents.</small></figcaption>
+        </figure>
+
+    </div>
+
+  </div>
+</section>
+
+<section id="download" class="bg-gamboge text-shark p-5">
+  <div class="container">
+
+    <div class="sec-title">
+      <h2 class="display-4 mb-5">Download</h2>
+    </div>
+
+    <div class="row justify-content-md-center">
+      <div class="col-md-4">
+        <p class="text-center lead">Tautulli</p>
+        <a href="https://github.com/JonnyWong16/plexpy">
+          <img alt='Get it on GitHub' src='images/github_badge.png' class="img-fluid" />
+        </a>
+      </div>
+      <div class="col-md-4">
+
+        <p class="text-center lead">Tautulli Remote</p>
+        <a href='https://play.google.com/store/apps/details?id=com.williamcomartin.plexpyremote'>
+          <img alt='Get it on Google Play' src='images/google_play_badge.png' class="img-fluid" />
+        </a>
+        <!--<a href="https://play.google.com/store/apps/details?id=com.williamcomartin.plexpyremote&hl=en" class="btn btn-block bg-river-bed text-alabaster hover-bg-shark">Download Android App</a>-->
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section id="support" class="text-alabaster p-5">
+  <div class="container">
+
+    <div class="sec-title">
+      <h2 class="display-4 mb-5 text-gamboge">Support</h2>
+    </div>
+    <div class="row support-button">
+        <div class="col">
+          <a href="https://github.com/JonnyWong16/plexpy/wiki/Frequently-Asked-Questions-(FAQ)"><i class="fa fa-github fa-2x"></i></a>
+        </div>
+        <div class="col">
+          <a href="https://discord.gg/36ggawe"><i class="icon icon-discord fa-2x"></i></a>
+        </div>
+        <div class="col">
+          <a href="https://gitter.im/plexpy/general"><i class="icon icon-gitter fa-2x"></i></a>
+        </div>
+        <div class="col">
+          <a href="https://forums.plex.tv/discussion/169591/plexpy-another-plex-monitoring-program"><i class="icon icon-plex fa-2x"></i></a>
+        </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="donate" class="bg-river-bed text-alabaster p-5">
+  <div class="container">
+
+    <div class="sec-title">
+      <h2 class="display-4 mb-5 text-gamboge">Donate</h2>
+    </div>
+
+    <div class="row justify-content-md-center">
+      <div class="col-md-8 mb-3 card-deck">
+        <div class="card bg-shark">
+          <div class="card-body">
+            <h4 class="card-title">Tautulli</h4>
+
+            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DG783BMSCU3V4"
+               class="btn btn-link text-gamboge">
+              <i class="fa fa-paypal"></i> PayPal</a>
+            <!--<br />-->
+            <!--<a href="https://www.coinbase.com/JonnyWong16/"-->
+               <!--class="btn btn-link text-gamboge">-->
+              <!--<i class="fa fa-bitcoin"></i> Bitcoin</a>-->
+
+          </div>
+        </div>
+      <!--</div>-->
+      <!--<div class="col-md-4 mb-3">-->
+        <div class="card bg-shark">
+          <div class="card-body">
+            <h4 class="card-title">Tautulli Remote</h4>
+
+            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ADRXXSWUJF788"
+               class="btn btn-link text-gamboge">
+              <i class="fa fa-paypal"></i> PayPal</a>
+
+            <!--<a href="https://flattr.com/profile/williamcomartin"-->
+               <!--class="btn btn-link text-gamboge">-->
+              <!--<i class="fa fa-dollar"></i> Flattr</a>-->
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--<div class="row support-button">-->
+      <!--<div class="col">-->
+        <!--<h3 class="pb-3">Server</h3>-->
+        <!--<div class="row justify-content-md-center">-->
+          <!--<div class="col">-->
+            <!--<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DG783BMSCU3V4"><i class="fa fa-paypal fa-2x"></i></a>-->
+          <!--</div>-->
+          <!--<div class="col">-->
+            <!--<a href="https://www.coinbase.com/JonnyWong16/"><i class="fa fa-bitcoin fa-2x"></i></a>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
+      <!--<div class="col">-->
+        <!--<h3 class="pb-3">Android App</h3>-->
+        <!--<div class="row justify-content-md-center">-->
+          <!--<div class="col">-->
+            <!--<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ADRXXSWUJF788"><i class="fa fa-paypal fa-2x"></i></a>-->
+          <!--</div>-->
+          <!--<div class="col">-->
+            <!--<a href="https://flattr.com/profile/williamcomartin"><i class="fa fa-dollar fa-2x"></i></a>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
+
+    </div>
+  </div>
+</section>
+
+<footer id="footer" class="p-5 text-gray-chateau">
+  <div class="container">
+    <div class="text-center">
+      <div class="footer-content">
+        <p>Copyright &copy; 2017 | JonnyWong16 / WilliamComartin</p>
+        <p>Tautulli is not affiliated with Plex Inc.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display:none;">
+  <symbol id="close" viewBox="0 0 18 18">
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M9,0.493C4.302,0.493,0.493,4.302,0.493,9S4.302,17.507,9,17.507
+			S17.507,13.698,17.507,9S13.698,0.493,9,0.493z M12.491,11.491c0.292,0.296,0.292,0.773,0,1.068c-0.293,0.295-0.767,0.295-1.059,0
+			l-2.435-2.457L6.564,12.56c-0.292,0.295-0.766,0.295-1.058,0c-0.292-0.295-0.292-0.772,0-1.068L7.94,9.035L5.435,6.507
+			c-0.292-0.295-0.292-0.773,0-1.068c0.293-0.295,0.766-0.295,1.059,0l2.504,2.528l2.505-2.528c0.292-0.295,0.767-0.295,1.059,0
+			s0.292,0.773,0,1.068l-2.505,2.528L12.491,11.491z"/>
+  </symbol>
+</svg>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/7e4938e866.js"></script>
+<script src="js/jquery.singlePageNav.min.js"></script>
+<!-- jquery easing -->
+<script src="js/jquery.easing.min.js"></script>
+
+<script src="js/script.js"></script>
+</body>
 </html>
