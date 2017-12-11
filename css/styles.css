@@ -27,7 +27,7 @@
   text-align: center;
 }
 
-.support-button .col-md-4 a {
+.support-button .col-md-3 a {
   margin: 0 auto;
   border: 2px solid #ccc;
   border-radius: 50%;
@@ -44,12 +44,12 @@
   transition: all 0.2s ease 0s;
 }
 
-.support-button .col-md-4 a:hover {
+.support-button .col-md-3 a:hover {
   color: #E5A00D;
   border: 2px solid #E5A00D;
 }
 
-.support-button .col-md-4 a:hover {
+.support-button .col-md-3 a:hover {
   text-decoration: none !important;
 }
 
