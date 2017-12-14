@@ -28,6 +28,11 @@
   text-decoration: none;
 }
 
+#heading {
+  position: relative;
+  min-height: 585px
+}
+
 #heading-name {
   position: relative;
 }
