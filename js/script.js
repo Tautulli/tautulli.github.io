@@ -38,7 +38,8 @@ $(function () {
       $popup = $('<div class="popup" />').appendTo($('body'));
 
       $fig = $figure.clone().appendTo($('.popup'));
-      $('img', $fig).width(window.innerWidth / 1.4);
+      $fig_img = $fig.data('image');
+      $('img', $fig).width(window.innerWidth / 1.4).attr('src', $fig_img);
       $fig.css({
         top: (window.innerHeight / 2) - ($('img', $fig).height() / 2) ,
         left: (window.innerWidth / 2) - ($('img', $fig).width() / 2)
