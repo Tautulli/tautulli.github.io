@@ -78,4 +78,18 @@ $(function () {
     updateHash: true
   });
 
+  /* ========================================================================= */
+  /*	Bitcoin address in modal
+  /* ========================================================================= */
+  
+  $('#bitcoin-modal').on('show.bs.modal', function (event) {
+    var button = $(event.relatedTarget);
+    var address = button.data('address');
+    var modal = $(this);
+    modal.find('#crypto_address').text(address);
+    $('#crypto_qr_code').empty().qrcode({
+      text: "Bitcoin:" + address
+    });
+  });
+
 });

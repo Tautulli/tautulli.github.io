@@ -74,7 +74,7 @@
     </div>
     <div class="row">
       <div class="col-md-3 col-lg-2 text-center mb-4">
-        <img src="images/favicon.png" alt="member" class="img-fluid">
+        <img src="images/logo.png" alt="member" class="img-fluid">
       </div>
       <div class="col-md">
 
@@ -399,18 +399,14 @@
           <div class="card-body">
             <h4 class="card-title">Tautulli</h4>
 
-            <a target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DG783BMSCU3V4"
+            <a target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=6XPPKTDSX9QFL&lc=US&item_name=Tautulli&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted"
                class="btn btn-link text-gamboge hover-text-alabaster">
               <i class="fa fa-paypal"></i> PayPal</a>
-            <!--<br />-->
-            <!--<a target=_blank href="https://www.coinbase.com/JonnyWong16/"-->
-            <!--class="btn btn-link text-gamboge">-->
-            <!--<i class="fa fa-bitcoin"></i> Bitcoin</a>-->
-
+            <a href="#" data-toggle="modal" data-target="#bitcoin-modal" data-address="3FdfJAyNWU15Sf11U9FTgPHuP1hPz32eEN" 
+               class="btn btn-link text-gamboge hover-text-alabaster">
+              <i class="fa fa-bitcoin"></i> Bitcoin</a>
           </div>
         </div>
-        <!--</div>-->
-        <!--<div class="col-md-4 mb-3">-->
         <div class="card bg-shark">
           <div class="card-body">
             <h4 class="card-title">Tautulli Remote</h4>
@@ -418,7 +414,9 @@
             <a target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ADRXXSWUJF788"
                class="btn btn-link text-gamboge hover-text-alabaster">
               <i class="fa fa-paypal"></i> PayPal</a>
-
+            <a href="#" data-toggle="modal" data-target="#bitcoin-modal" data-address="38To4y9S2uAHLWcGG7wyNuXQZa2cwwYPGp" 
+               class="btn btn-link text-gamboge hover-text-alabaster">
+              <i class="fa fa-bitcoin"></i> Bitcoin</a>
             <!--<a target=_blank href="https://flattr.com/profile/williamcomartin"-->
             <!--class="btn btn-link text-gamboge">-->
             <!--<i class="fa fa-dollar"></i> Flattr</a>-->
@@ -453,7 +451,28 @@
     <!--</div>-->
 
   </div>
-  </div>
+  
+    <div class="modal fade" id="bitcoin-modal" tabindex="-1" role="dialog" aria-labelledby="bitcoin-modal" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Bitcoin Donation</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true"><i class="fa fa-remove"></i></span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <label>QR Code</label>
+            <pre id="crypto_qr_code" style="text-align: center"></pre>
+            <label>Bitcoin Address</label>
+            <pre id="crypto_address" style="text-align: center"></pre>
+          </div>
+          <div class="modal-footer">
+          </div>
+        </div>
+      </div>
+    </div>
+    
 </section>
 
 <footer id="footer" class="p-5 text-gray-chateau">
@@ -493,6 +512,7 @@
 <script src="js/jquery.singlePageNav.min.js"></script>
 <!-- jquery easing -->
 <script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.qrcode.min.js"></script>
 
 <script src="js/script.min.js"></script>
 
