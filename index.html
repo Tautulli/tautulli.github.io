@@ -343,13 +343,15 @@
     <div class="row justify-content-md-center">
       <div class="col-md-4">
         <p class="text-center lead">Tautulli</p>
-        <a target="_blank" href="https://github.com/JonnyWong16/plexpy">
+        <a target="_blank" href="https://github.com/JonnyWong16/plexpy"
+           onclick="gtag('event', 'download', {event_category: 'engagement', event_label: 'Download - Tautulli', variant: 'Tautulli'})">
           <img alt='Get it on GitHub' src='images/github_badge.png' class="img-fluid mx-auto"/>
         </a>
       </div>
       <div class="col-md-4">
         <p class="text-center lead">Tautulli Remote</p>
-        <a target="_blank" href='https://play.google.com/store/apps/details?id=com.williamcomartin.plexpyremote'>
+        <a target="_blank" href='https://play.google.com/store/apps/details?id=com.williamcomartin.plexpyremote'
+           onclick="gtag('event', 'download', {event_category: 'engagement', event_label: 'Download - Tautulli Remote', variant: 'Tautulli Remote'})">
           <img alt='Get it on Google Play' src='images/google_play_badge.png' class="img-fluid mx-auto"/>
         </a>
       </div>
@@ -368,21 +370,27 @@
     <div class="row support-button">
 
       <div class="col-md-3">
-        <a target="_blank" href="https://github.com/JonnyWong16/plexpy/wiki/Frequently-Asked-Questions-(FAQ)"><i
-          class="fa fa-github fa-2x"></i></a>
+        <a target="_blank" href="https://github.com/JonnyWong16/plexpy/wiki/Frequently-Asked-Questions-(FAQ)"
+           onclick="gtag('event', 'support', {event_category: 'engagement', event_label: 'Github FAQ'})">
+          <i class="fa fa-github fa-2x"></i></a>
       </div>
 
       <div class="col-md-3">
-        <a target="_blank" href="https://discord.gg/36ggawe"><i class="icon icon-discord fa-2x"></i></a>
+        <a target="_blank" href="https://discord.gg/36ggawe"
+           onclick="gtag('event', 'support', {event_category: 'engagement', event_label: 'Discord'})">
+          <i class="icon icon-discord fa-2x"></i></a>
       </div>
 
       <div class="col-md-3">
-        <a target="_blank" href="https://www.reddit.com/r/Tautulli/"><i class="fa fa-reddit-alien fa-2x"></i></a>
+        <a target="_blank" href="https://www.reddit.com/r/Tautulli/"
+           onclick="gtag('event', 'support', {event_category: 'engagement', event_label: 'Reddit'})">
+          <i class="fa fa-reddit-alien fa-2x"></i></a>
       </div>
 
       <div class="col-md-3">
-        <a target="_blank" href="https://forums.plex.tv/discussion/169591/plexpy-another-plex-monitoring-program"><i
-          class="icon icon-plex fa-2x"></i></a>
+        <a target="_blank" href="https://forums.plex.tv/discussion/169591/plexpy-another-plex-monitoring-program"
+           onclick="gtag('event', 'support', {event_category: 'engagement', event_label: 'Plex Forum'})">
+          <i class="icon icon-plex fa-2x"></i></a>
       </div>
 
     </div>
@@ -403,9 +411,11 @@
             <h4 class="card-title">Tautulli</h4>
 
             <a target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=6XPPKTDSX9QFL&lc=US&item_name=Tautulli&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted"
+               onclick="gtag('event', 'donate', {event_category: 'ecommerce', event_label: 'Tautulli - Paypal', method: 'Paypal', variant: 'Tautulli'})"
                class="btn btn-link text-gamboge hover-text-alabaster">
               <i class="fa fa-paypal"></i> PayPal</a>
-            <a href="#" data-toggle="modal" data-target="#bitcoin-modal" data-address="3FdfJAyNWU15Sf11U9FTgPHuP1hPz32eEN" 
+            <a href="#" data-toggle="modal" data-target="#bitcoin-modal" data-address="3FdfJAyNWU15Sf11U9FTgPHuP1hPz32eEN"
+               onclick="gtag('event', 'donate', {event_category: 'ecommerce', event_label: 'Tautulli - Bitcoin', method: 'Bitcoin', variant: 'Tautulli'})"
                class="btn btn-link text-gamboge hover-text-alabaster">
               <i class="fa fa-bitcoin"></i> Bitcoin</a>
           </div>
@@ -415,9 +425,11 @@
             <h4 class="card-title">Tautulli Remote</h4>
 
             <a target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ADRXXSWUJF788"
+               onclick="gtag('event', 'donate', {event_category: 'ecommerce', event_label: 'Tautulli Remote - Paypal', method: 'Paypal', variant: 'Tautulli Remote'})"
                class="btn btn-link text-gamboge hover-text-alabaster">
               <i class="fa fa-paypal"></i> PayPal</a>
-            <a href="#" data-toggle="modal" data-target="#bitcoin-modal" data-address="38To4y9S2uAHLWcGG7wyNuXQZa2cwwYPGp" 
+            <a href="#" data-toggle="modal" data-target="#bitcoin-modal" data-address="38To4y9S2uAHLWcGG7wyNuXQZa2cwwYPGp"
+               onclick="gtag('event', 'donate', {event_category: 'ecommerce', event_label: 'Tautulli Remote - Bitcoin', method: 'Bitcoin', variant: 'Tautulli Remote'})"
                class="btn btn-link text-gamboge hover-text-alabaster">
               <i class="fa fa-bitcoin"></i> Bitcoin</a>
 
