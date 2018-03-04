@@ -65,6 +65,7 @@
 }
 
 .support-button .col-md-3 a {
+  padding-top: 7px;
   margin: 0 auto;
   border: 2px solid #ccc;
   border-radius: 50%;
