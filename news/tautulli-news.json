@@ -1,0 +1,8 @@
+[
+  {
+    "date": "2020-05-10",
+    "title": "Python 3 Support",
+    "subtitle": "Tautulli now supports both Python 2 and Python 3",
+    "body": "<p>Tautulli can also be installed on Windows and MacOS <em>without</em> needing to install Python. You can download the new app installer from the <a href=\"https://nullrefer.com/?https://github.com/Tautulli/Tautulli/releases/latest\" target=\"_blank\">GitHub release page</a>. See the <a href=\"https://nullrefer.com/?https://github.com/Tautulli/Tautulli-wiki/wiki\" target=\"_blank\">GitHub wiki page</a> for more details.</p><p>Note: If you are running Python script notifications, then you will still need Python installed.</p>"
+  }
+]
