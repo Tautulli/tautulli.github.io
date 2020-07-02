@@ -1,5 +1,11 @@
 [
   {
+    "date": "2020-07-01",
+    "title": "Lifetime Plex Pass giveaway",
+    "subtitle": "I am giving away a Lifetime Plex Pass to celebrate the release of Tautulli v2.5",
+    "body": "<p>Visit the <a href=\"https://nullrefer.com/?https://www.reddit.com/r/Tautulli/comments/hjp380\" target=\"_blank\">Reddit announcement post</a> or <a href=\"https://nullrefer.com/?https://tautulli.com/discord\" target=\"_blank\">Discord server</a> for details on how to enter."
+  },
+  {
     "date": "2020-05-31",
     "title": "Python 3 Support",
     "subtitle": "Tautulli now supports both Python 2 and Python 3",
