@@ -3,18 +3,18 @@
     "date": "2020-08-01",
     "title": "New Plex Movie Agent",
     "subtitle": "",
-    "body": "<p><s>PMS 1.20.0 beta introduces a <a href=\"https://nullrefer.com/?https://forums.plex.tv/t/introducing-the-new-plex-movie-agent/615989\" target=\"_blank\">new Plex Movie agent</a>. The new agent does not include external metadata provider IDs in the API (such as the IMDB ID or TMDb ID) which are used by Tautulli and many other community applications.</s></p><p><s>Please go <a href=\"https://nullrefer.com/?https://forums.plex.tv/t/allow-access-to-external-provider-ids-for-media/619090\" target=\"_blank\">vote on this feature request on the Plex Forums</a> so that these IDs can be accessed through the API again.</s></p><p>The external metadata provider IDs have been added back in PMS 1.20.1.</p>"
+    "body": "<p><s>PMS 1.20.0 beta introduces a <a href=\"https://nullrefer.com/?https://forums.plex.tv/t/introducing-the-new-plex-movie-agent/615989\" target=\"_blank\" rel=\"noreferrer\">new Plex Movie agent</a>. The new agent does not include external metadata provider IDs in the API (such as the IMDB ID or TMDb ID) which are used by Tautulli and many other community applications.</s></p><p><s>Please go <a href=\"https://nullrefer.com/?https://forums.plex.tv/t/allow-access-to-external-provider-ids-for-media/619090\" target=\"_blank\" rel=\"noreferrer\">vote on this feature request on the Plex Forums</a> so that these IDs can be accessed through the API again.</s></p><p>The external metadata provider IDs have been added back in PMS 1.20.1.</p>"
   },
   {
     "date": "2020-07-01",
     "title": "Lifetime Plex Pass Giveaway",
     "subtitle": "<s>I am giving away a Lifetime Plex Pass to celebrate the release of Tautulli v2.5</s>",
-    "body": "<p><s>Visit the <a href=\"https://nullrefer.com/?https://redd.it/hjp380\" target=\"_blank\">Reddit announcement post</a> or <a href=\"https://nullrefer.com/?https://tautulli.com/discord\" target=\"_blank\">Discord server</a> for details on how to enter.</s><p>The giveaway is now over. Thank you to everyone who participated.</p>"
+    "body": "<p><s>Visit the <a href=\"https://nullrefer.com/?https://redd.it/hjp380\" target=\"_blank\" rel=\"noreferrer\">Reddit announcement post</a> or <a href=\"https://nullrefer.com/?https://tautulli.com/discord\" target=\"_blank\" rel=\"noreferrer\">Discord server</a> for details on how to enter.</s><p>The giveaway is now over. Thank you to everyone who participated.</p>"
   },
   {
     "date": "2020-05-31",
     "title": "Python 3 Support",
     "subtitle": "Tautulli now supports both Python 2 and Python 3",
-    "body": "<p>Tautulli can also be installed on Windows and MacOS <em>without</em> needing to install Python. You can download the new app installer from the <a href=\"https://nullrefer.com/?https://github.com/Tautulli/Tautulli/releases/latest\" target=\"_blank\">GitHub Releases page</a>. Refer to the <a href=\"https://nullrefer.com/?https://github.com/Tautulli/Tautulli-Wiki/wiki/Upgrading-to-Tautulli-v2.5\" target=\"_blank\">GitHub Wiki page</a> for more details.</p>"
+    "body": "<p>Tautulli can also be installed on Windows and MacOS <em>without</em> needing to install Python. You can download the new app installer from the <a href=\"https://nullrefer.com/?https://github.com/Tautulli/Tautulli/releases/latest\" target=\"_blank\" rel=\"noreferrer\">GitHub Releases page</a>. Refer to the <a href=\"https://nullrefer.com/?https://github.com/Tautulli/Tautulli-Wiki/wiki/Upgrading-to-Tautulli-v2.5\" target=\"_blank\" rel=\"noreferrer\">GitHub Wiki page</a> for more details.</p>"
   }
 ]
