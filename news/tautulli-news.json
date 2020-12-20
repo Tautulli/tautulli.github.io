@@ -1,5 +1,11 @@
 [
   {
+    "date": "2020-12-19",
+    "title": "End of Python 2 Support",
+    "subtitle": "",
+    "body": "<p>Tautulli v2.6.3 is the last version to support Python 2. Python 3 will be required to continue receiving updates.</p><p>You can check your Python version listed in the configuration below. If the Python version is 3.6.x or newer then no action is required, otherwise please refer to the <a href=\"https://nullrefer.com/?https://github.com/Tautulli/Tautulli-Wiki/wiki/Upgrading-to-Python-3-%28Tautulli-v2.5%29\" target=\"_blank\" rel=\"noreferrer\">GitHub Wiki page</a> for instructions on how to upgrade to Python 3.</p>"
+  },
+  {
     "date": "2020-08-01",
     "title": "New Plex Movie Agent",
     "subtitle": "",
@@ -15,6 +21,6 @@
     "date": "2020-05-31",
     "title": "Python 3 Support",
     "subtitle": "Tautulli now supports both Python 2 and Python 3",
-    "body": "<p>Tautulli can also be installed on Windows and MacOS <em>without</em> needing to install Python. You can download the new app installer from the <a href=\"https://nullrefer.com/?https://github.com/Tautulli/Tautulli/releases/latest\" target=\"_blank\" rel=\"noreferrer\">GitHub Releases page</a>. Refer to the <a href=\"https://nullrefer.com/?https://github.com/Tautulli/Tautulli-Wiki/wiki/Upgrading-to-Tautulli-v2.5\" target=\"_blank\" rel=\"noreferrer\">GitHub Wiki page</a> for more details.</p>"
+    "body": "<p>Tautulli can also be installed on Windows and MacOS <em>without</em> needing to install Python. You can download the new app installer from the <a href=\"https://nullrefer.com/?https://github.com/Tautulli/Tautulli/releases/latest\" target=\"_blank\" rel=\"noreferrer\">GitHub Releases page</a>. Refer to the <a href=\"https://nullrefer.com/?https://github.com/Tautulli/Tautulli-Wiki/wiki/Upgrading-to-Python-3-%28Tautulli-v2.5%29\" target=\"_blank\" rel=\"noreferrer\">GitHub Wiki page</a> for more details.</p>"
   }
 ]
