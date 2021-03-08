@@ -1,9 +1,9 @@
 [
   {
-    "id": 0,
-    "date": "2021-03-01",
-    "title": "Test Announcement",
-    "body": "This is a simple test announcement, tap to go to tautulli.com.",
-    "actionUrl": "https://tautulli.com/"
+    "id": 1,
+    "date": "2021-03-08",
+    "title": "Welcome to the new Tautulli Remote!",
+    "body": "Important announcements will be shared though this page. Make sure to check Settings > Help & Support for links to various help topics, support items, and device logs.",
+    "actionUrl": null
   }
 ]
