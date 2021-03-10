@@ -1,5 +1,12 @@
 [
   {
+    "id": 2,
+    "date": "2021-03-10",
+    "title": "Update your Tautulli Notification Agent",
+    "body": "If you are switching over from the previous Tautulli Remote you may be experiancing generic notification messages that are missing details. Tap here to learn how to fix this in Tautulli.",
+    "actionUrl": "https://github.com/Tautulli/Tautulli-Remote/wiki/Troubleshooting#notification_encryption_issue"
+  },
+  {
     "id": 1,
     "date": "2021-03-08",
     "title": "Welcome to the new Tautulli Remote!",
