@@ -3,7 +3,7 @@
     "date": "2021-03-07",
     "title": "Auto-updater Removed from Windows exe",
     "subtitle": "",
-    "body": "<p>Windows exe users will need to manually download and install v2.6.7 since the auto-updater was removed. You can download the new installer from the <a href=\"https://nullrefer.com/?https://github.com/Tautulli/Tautulli/releases/latest\" target=\"_blank\" rel=\"noreferrer\">GitHub Releases page</a>. Your Tautulli data will not be affected.</p>"
+    "body": "<p>Windows exe users will need to manually download and install v2.6.7 (and all future versions) since the auto-updater was removed. You can download the new installer from the <a href=\"https://nullrefer.com/?https://github.com/Tautulli/Tautulli/releases/latest\" target=\"_blank\" rel=\"noreferrer\">GitHub Releases page</a>. Your Tautulli data will not be affected.</p>"
   },
   {
     "date": "2020-12-19",
