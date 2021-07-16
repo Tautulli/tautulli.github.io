@@ -2,6 +2,13 @@
   {
     "id": 2,
     "date": "2021-03-10",
+    "title": "Tautulli Remote now available on iOS",
+    "body": "Tautulli Remote is now stable on Android and available as an open beta on iOS. Thank you to all the beta testers. Tap to learn more.",
+    "actionUrl": "https://www.reddit.com/r/Tautulli/comments/okxry9/tautulli_remote_is_now_in_open_beta_for_ios_and/"
+  },
+  {
+    "id": 2,
+    "date": "2021-03-10",
     "title": "Update your Tautulli Notification Agent",
     "body": "If you are switching over from the previous Tautulli Remote you may be experiancing generic notification messages that are missing details. Tap here to learn how to fix this in Tautulli.",
     "actionUrl": "https://github.com/Tautulli/Tautulli-Remote/wiki/Troubleshooting#notification_encryption_issue"
