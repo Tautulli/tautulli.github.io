@@ -1,5 +1,12 @@
 [
   {
+    "id": 4,
+    "date": "2021-07-30",
+    "title": "Tautulli Remote supports community powered translations",
+    "body": "Since v2.10.0 Tautulli Remote has supported multiple languages. See a missing translation or error? Want to help translate to a new language? Tap here to help out!",
+    "actionUrl": "https://hosted.weblate.org/engage/tautulli-remote/"
+  },
+  {
     "id": 3,
     "date": "2021-07-16",
     "title": "Tautulli Remote now available on iOS",
