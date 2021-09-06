@@ -1,5 +1,11 @@
 [
   {
+    "id": 6,
+    "date": "2021-09-05",
+    "title": "iOS no longer requires App Tracking for notifications",
+    "body": "Starting with the new v2.12.3 for iOS App Tracking is no longer required for notifications. No fundamental code has been changed, we simply worked with Apple to prove we are not tracking users. Once updated iOS users can safely remove App Tracking or uninstall/reinstall the app to clear out permissions.",
+  },
+  {
     "id": 5,
     "date": "2021-08-31",
     "title": "Tautulli Remote for iOS is out of beta!",
