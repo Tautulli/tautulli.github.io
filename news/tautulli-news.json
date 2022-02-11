@@ -1,5 +1,11 @@
 [
   {
+    "date": "2022-02-10",
+    "title": "End of Support for Windows 7 and macOS 10.14 (Mojave)",
+    "subtitle": "",
+    "body": "<p>Windows 7 is no longer supported by Microsoft. Tautulli v2.8.x and above requires Windows 8 or newer.</p><p>macOS 10.14 (Mojave) is no longer supported by Apple. Tautulli v2.9.x and above requires macOS 10.15 (Catalina) or newer.<p>"
+  },
+  {
     "date": "2021-08-11",
     "title": "Plex Feature Request for External Guids",
     "subtitle": "",
