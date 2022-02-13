@@ -1,5 +1,12 @@
 [
   {
+    "id": 7,
+    "date": "2022-02-13",
+    "title": "A new alpha build is available and we need Android users to help test!",
+    "body": "Android users can help test a new alpha build for the app as we work to improve the look and functionality from the ground up. Learn more in the #v3-alpha-releases channel on Discord by tapping here.",
+    "actionUrl": "https://tautulli.com/discord.html"
+  },
+  {
     "id": 6,
     "date": "2021-09-05",
     "title": "iOS no longer requires App Tracking for notifications",
