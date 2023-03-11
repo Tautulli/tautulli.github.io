@@ -1,31 +1,17 @@
 [
   {
-    "id": 8,
-    "date": "2022-11-25",
-    "title": "Attention Android users",
-    "body": "Since Tautulli Remote launched as a beta many of you are still signed up for beta releases. There is a major beta update planned for release during 2023, if you no longer wish to be in the beta program tap here to leave.",
+    "id": 9,
+    "date": "2023-03-11",
+    "title": "Tautulli v3 is here!",
+    "body": "Tautulli v3 is starting a staged rollout to the Google Play beta channel. If you are interested in getting the update early please tap here to join.",
     "actionUrl": "https://play.google.com/apps/testing/com.tautulli.tautulli_remote",
     "platform": "android"
   },
   {
-    "id": 7,
-    "date": "2022-02-13",
-    "title": "A new alpha build is available and we need Android users to help test!",
-    "body": "Android users can help test a new alpha build for the app as we work to improve the look and functionality from the ground up. Learn more in the #v3-alpha-releases channel on Discord by tapping here.",
-    "actionUrl": "https://tautulli.com/discord.html"
-  },
-  {
-    "id": 6,
-    "date": "2021-09-05",
-    "title": "iOS no longer requires App Tracking for notifications",
-    "body": "Starting with the new v2.12.3 for iOS, App Tracking is no longer required for notifications. No fundamental code has been changed, we simply worked with Apple to prove we are not tracking users. Once updated iOS users can safely remove App Tracking or uninstall/reinstall the app to clear out permissions.",
-    "platform": "ios"
-  },
-  {
     "id": 1,
     "date": "2021-03-08",
-    "title": "Welcome to the new Tautulli Remote!",
-    "body": "Important announcements will be shared though this page. Make sure to check Settings > Help & Support for links to various help topics, support items, and device logs.",
+    "title": "Welcome to Tautulli Remote!",
+    "body": "Important announcements will be shared though this page. Make sure to check the Help & Support section under Settings for links to support methods and device logs.",
     "actionUrl": null
   }
 ]
