@@ -3,7 +3,7 @@
     "id": 9,
     "date": "2023-03-11",
     "title": "Tautulli v3 is here!",
-    "body": "Tautulli v3 is starting a staged rollout to the Google Play beta channel. If you are interested in getting the update early please tap here to join.",
+    "body": "Tautulli v3 is starting a staged rollout to the Google Play beta channel. Please note this rollout will take some time as I want to ensure there are as few issues as possible. If you are interested in getting the update early please tap here to join.",
     "actionUrl": "https://play.google.com/apps/testing/com.tautulli.tautulli_remote",
     "platform": "android"
   },
