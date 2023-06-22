@@ -1,11 +1,11 @@
 [
   {
-    "id": 9,
-    "date": "2023-03-11",
-    "title": "Tautulli v3 is here!",
-    "body": "Tautulli v3 is starting a staged rollout to the Google Play beta channel. Please note this rollout will take some time as I want to ensure there are as few issues as possible. If you are interested in getting the update early please tap here to join.",
-    "actionUrl": "https://play.google.com/apps/testing/com.tautulli.tautulli_remote",
-    "platform": "android"
+    "id": 10,
+    "date": "2023-06-22",
+    "title": "Tautulli v3 is released!",
+    "body": "Tautulli v3 is now fully available on Android and iOS. Tap here to submit any issues or feature requests you might have.",
+    "actionUrl": "https://github.com/Tautulli/Tautulli-Remote/issues/new/choose",
+    "platform": null
   },
   {
     "id": 1,
