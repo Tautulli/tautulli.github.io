@@ -1,5 +1,13 @@
 [
   {
+    "id": 11,
+    "date": "2023-09-03",
+    "title": "Fixing OneSignal issues after an update",
+    "body": "Some users have reported behavior where Tautulli Remote is stuck trying to register with OneSignal after updating. Please try disabling and re-enabling the OneSignal consent if you are experiencing this issue. Fixes to this issue are being investigated for future updates.",
+    "actionUrl": null,
+    "platform": null
+  },
+  {
     "id": 10,
     "date": "2023-06-22",
     "title": "Tautulli Remote v3 is released!",
