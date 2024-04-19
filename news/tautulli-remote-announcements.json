@@ -1,5 +1,13 @@
 [
   {
+    "id": 12,
+    "date": "2024-04-19",
+    "title": "Notification Encryption Method Updated",
+    "body": "Tautulli v2.14.0 is using an updated encryption method for notifications. Please make sure you are updated to Tatutulli Remote v3.2.4 to ensure notifications continue to function.",
+    "actionUrl": null,
+    "platform": null
+  },
+  {
     "id": 11,
     "date": "2023-09-03",
     "title": "Fixing OneSignal issues after an update",
