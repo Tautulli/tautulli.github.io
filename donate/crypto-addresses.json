@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "address": "bc1q7vrujlxua92aeag6k5clggqr85mwnp8qem50va"
+  },
+  {
+    "name": "Ethereum",
+    "symbol": "ETH or any ERC-20 token",
+    "address": "0xD71d5cF8fd3a663B8A7DaC6858C516C2a753A08d"
+  },
+  {
+    "name": "Solana",
+    "symbol": "SOL",
+    "address": "A79X2WzM4g3innaCAQ3dCYXzFzjGQj97r6QPSgv4jiSx"
+  },
+  {
+    "name": "Litecoin",
+    "symbol": "LTC",
+    "address": "ltc1qmz34m8qyspsal6napd9g429uyvk2zm94v0z90w"
+  }
+]
