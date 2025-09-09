@@ -1,5 +1,11 @@
 [
   {
+    "date": "2025-09-08",
+    "title": "Important Security Update!",
+    "subtitle": "",
+    "body": "<p>Several security vulnerabilities have been identified in Tautulli versions <=2.15.3 (CVE-2025-58760, CVE-2025-58761, CVE-2025-58762, CVE-2025-58763).</p><p>Users are strongly encouraged to update to the latest Tautulli version 2.16.x.<p>"
+  },
+  {
     "date": "2022-02-10",
     "title": "End of Support for Windows 7 and macOS 10.14 (Mojave)",
     "subtitle": "",
