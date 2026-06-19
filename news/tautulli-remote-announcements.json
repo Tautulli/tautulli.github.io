@@ -1,25 +1,9 @@
 [
   {
-    "id": 12,
-    "date": "2024-04-19",
-    "title": "Notification Encryption Method Updated",
-    "body": "Tautulli v2.14.0 is using an updated encryption method for notifications. Please make sure you are updated to Tatutulli Remote v3.2.4 to ensure notifications continue to function.",
-    "actionUrl": null,
-    "platform": null
-  },
-  {
-    "id": 11,
-    "date": "2023-09-03",
-    "title": "Fixing OneSignal issues after an update",
-    "body": "Some users have reported behavior where Tautulli Remote is stuck trying to register with OneSignal after updating. Please try disabling and re-enabling the OneSignal consent if you are experiencing this issue. Fixes to this issue are being investigated for future updates.",
-    "actionUrl": null,
-    "platform": null
-  },
-  {
-    "id": 10,
-    "date": "2023-06-22",
-    "title": "Tautulli Remote v3 is released!",
-    "body": "Tautulli Remote v3 is now fully available on Android and iOS. Tap here to submit any issues or feature requests you might have.",
+    "id": 13,
+    "date": "2026-06-19",
+    "title": "Introducing App Styles",
+    "body": "It's been exactly a year now since the last Tautulli Remote update. Today V3.5.0 starts rolling out and introduces App Styles! Alongside the existing Material style there is now a Cupertino style that is the default for iOS users. However, both styles are available to all under Settings > Appearance. I'm looking to take some of the new design ideas and use them to refresh the Material style in the future. Please continue to submit any issues or feature requests you might have.",
     "actionUrl": "https://github.com/Tautulli/Tautulli-Remote/issues/new/choose",
     "platform": null
   },
