@@ -1,5 +1,13 @@
 [
   {
+    "id": 14,
+    "date": "2026-07-28",
+    "title": "Upcoming Notification Changes",
+    "body": "On October 1st, 2026 OneSignal is changing their plans and as a result Tautulli Remote will no longer be able to use them. We are actively working on replacing OneSignal in advance of this deadline. Please look out for future announcements containing updates and any actions you will need to take.",
+    "actionUrl": null,
+    "platform": null
+  },
+  {
     "id": 13,
     "date": "2026-06-19",
     "title": "Introducing App Styles",
