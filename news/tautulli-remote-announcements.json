@@ -1,9 +1,9 @@
 [
   {
-    "id": 15,
-    "date": "2026-08-25",
-    "title": "Update to Tautulli v2.18.0 to prepare for upcoming notification changes",
-    "body": "On October 1st our current notification relay service OneSignal is changing their plans and we will no longer be able to use them. We have implemented our own solution for the next update that also requires Tautulli v2.18.0. Please update Tautulli in advance of the next Tautulli Remote update to avoid notification issues.",
+    "id": 16,
+    "date": "2026-09-30",
+    "title": "Update to Tautulli Remote v3.6.1+ & Tautulli v2.18.0+ to avoid notification issues",
+    "body": "Tomorrow, October 1st, our current notification relay service OneSignal is changing their plans and we will no longer be able to use them. We have implemented our own solution that is live in Tautulli Remove v3.6.1+ and also requires Tautulli v2.18.0+. Please update today to avoid notification issues.",
     "actionUrl": null,
     "platform": null
   },
